@@ -96,7 +96,7 @@ class Api_Rest_Form_Plugin_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/api-rest-form-plugin-public.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/api-rest-form-plugin-public.js', array(), $this->version, false );
 
 	}
 
