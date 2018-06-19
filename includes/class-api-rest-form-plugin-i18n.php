@@ -34,11 +34,11 @@ class Api_Rest_Form_Plugin_i18n {
 	 */
 	public function load_plugin_textdomain() {
 
-		load_plugin_textdomain(
-			'api-rest-form-plugin',
-			false,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
-		);
+		// load_plugin_textdomain(
+		// 	'api-rest-form-plugin',
+		// 	false,
+		// 	dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+		// );
 
 	}
 
